@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return (
         <section>
-            <h2 id="#about">
+            <h2 data-testid='#about'>
             About Me! 
             </h2>
             <p>

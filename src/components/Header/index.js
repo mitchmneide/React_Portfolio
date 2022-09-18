@@ -1,11 +1,14 @@
 import React from 'react';
-
-function Header(props) {
+import Nav from '../Nav'
+function Header() {
+    
     return (
-        <div>
+        <div className='flex-row px-1'>
             <h1>
-                Mitchel Eide 
+                <a href ="/"> Mitchel Eide </a>
             </h1>
+          <Nav></Nav>
+
         </div>
     )
 }

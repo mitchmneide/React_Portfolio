@@ -1,22 +1,21 @@
 import React from 'react'
-
-function Nav(props) {
-    const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
-    } = props
+ import Link from '../Link';
+function Nav() {
+   
+   
     return (
         <nav>
-            {categories.map((category) => (
-                <button key = {category.name}
-                className={`${currentCategory.name === category.name && 'navActive'}`}>
-                    <span onClick ={() => setCurrentCategory(category)}>
-                        {category.name}
-                    </span>
-                </button>
-            ))}
+            <ul className='flex-row'>
+                <div className='mx-2'>
+                    <Link href="/about" className="item">
+                        About
+                    </Link>
+                </div>
+               <Link href="/contact" className="item">
+                contact</Link>
+                
+            </ul>
         </nav>
-    )
+    );
 }
 export default Nav;
