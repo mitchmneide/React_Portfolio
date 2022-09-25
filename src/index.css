@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 65px;
 }
 
 code {
@@ -13,8 +14,8 @@ code {
 }
 main {
 	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+	max-width: 100%;
+  
 }
 :root {
   --primary: #8c54ff;
@@ -46,9 +47,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: #333333;
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: Jazz LET, fantasy;
 
 }
 
@@ -104,7 +105,10 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: #CBCBCB;
+  position: fixed;
+  width: 100%;
+  height: 15%;
 }
 
 header a {
@@ -169,14 +173,37 @@ nav a:hover {
 nav  li {
   cursor: pointer;
 }
-
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
 textarea {
 	width: 600px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
 }
-
+section{
+  display: block;
+ object-fit: cover;
+ justify-content: center;
+  top: 100px;
+  justify-content: center;
+  padding-bottom: 65px;
+  padding-top:65px
+}
+footer {
+  background-color: #CBCBCB;
+  height: 15%;
+  width: 100%;
+  padding:14px 41px;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
 .container {
   width: 85%;
   max-width: 1200px;
@@ -300,6 +327,74 @@ a {
 	margin-left: -2px;
 	margin-right: -2px;
 	
+}
+.about {
+  text-align: center;
+  padding-top: 55px;
+
+}
+.contact {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.me  {
+  text-align: center;
+  font-size: 2.6rem;
+  font-family: Jazz LET, fantasy;
+}
+.me a {
+text-decoration: none;
+}
+.h1font {
+  padding-top: 55px;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family:  Jazz LET, fantasy;
+}
+.image {
+  background-size: cover;
+    border: 5px solid #5b507a;
+
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 10px;
+    width: 250px;
+}
+.image img {
+  border: solid var(--tertiary-color) 2px;
+  position: relative;
+  width: 300px;
+  height: 150px;
+}
+.myimg {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.row-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  
+}
+.footerFont {
+  font-family: Jazz LET, fantasy;
 }
 
 .navActive {
