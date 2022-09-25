@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState}from 'react';
 import Header from './components/Header'
 import About from './components/About';
 import Route from './components/Route';
@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Project from './components/Project';
 
 function App() {
-  
+  const [isActive] = useState(false)
 
   
   return (
@@ -16,7 +16,7 @@ function App() {
     <Header/> 
    </div>
    <main>
-   <Route path ="/about" >
+   <Route path ="/about">
         <About  />
       </Route>
     <Route path ="/contact">

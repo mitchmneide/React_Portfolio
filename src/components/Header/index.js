@@ -3,7 +3,7 @@ import Nav from '../Nav'
 function Header() {
     
     return (
-        <header className>
+        <header>
             <Nav />
             <h1 className='me'>
                 <a href ="/" > Mitchel Eide </a>

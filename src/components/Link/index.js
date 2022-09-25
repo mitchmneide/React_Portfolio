@@ -1,27 +1,26 @@
-import React, {useState} from "react";
+import React from "react";
 import '../../index.css'
 
-const Link = ({href, children}) => {
-    const [isActive, setIsActive] = useState(false);
-    const className = isActive ? 'navActive' : '';
-    
-    const onClick = (event) => {
-        event.preventDefault();
-        // update Url
-        window.history.pushState({}, "", href);
+const Link = ({href, className,clickEvent, children}) => {
+    console.log('nav-link =' + href);
+    console.log('classname =' + className);
+    // const onClick = (event) => {
+    //     event.preventDefault();
+    //     // update Url
+    //     window.history.pushState({}, "", href);
         
-        setIsActive(current => !current)
+    //     setIsActive(current => !current)
         
      
         
-        // send to Routes that URL has changed
-        const navEvent = new PopStateEvent('popstate');
-        window.dispatchEvent(navEvent) ;
-        
-    };
+    //     // send to Routes that URL has changed
+    //     const navEvent = new PopStateEvent('popstate');
+    //     window.dispatchEvent(navEvent) ;
+        // Moved this too Nav thanks to frosemund from askBCS
+    // };
     
     return (
-        < a className={className} href= {href} onClick={onClick}  >
+        < a href= {href} className={className} onClick={(event) => clickEvent(event,href)}  >
             {children}
         </a>
     );
