@@ -5,7 +5,7 @@ function Nav() {
     const about = '/about';
     const contact = '/contact';
     const portfolio = '/portfolio';
-
+    const resume = '/resume';
   const [isActive, setIsActive] = useState('');
 
    const clickEvent = (event,href) => {
@@ -35,6 +35,11 @@ function Nav() {
                 <Link href={portfolio} clickEvent={clickEvent}className={(isActive === portfolio)? 'navActive': ''}>
                 Portfolio
                 </Link>
+                </div>
+                <div className='mx-2'>
+                    <Link href={resume} clickEvent={clickEvent} className ={(isActive === resume)? 'navActive' : ''}>
+                        Resume
+                    </Link>
                 </div>
             </ul>
         </nav>

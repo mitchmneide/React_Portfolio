@@ -1,13 +1,13 @@
-import React , {useState}from 'react';
+import React from 'react';
 import Header from './components/Header'
 import About from './components/About';
 import Route from './components/Route';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Project from './components/Project';
-
+import Resume from './components/Resume';
 function App() {
-  const [isActive] = useState(false)
+  
 
   
   return (
@@ -25,6 +25,9 @@ function App() {
     <Route path ="/portfolio">
       <Project />
     </Route>
+    <Route path ="/resume">
+        <Resume />
+      </Route>
     <Footer />
     </main>
     </div>

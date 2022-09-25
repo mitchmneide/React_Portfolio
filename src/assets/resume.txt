@@ -1,0 +1,43 @@
+reMitchel Eide
+Full Stack Web Developer
+
+Bethel 
+763-688-3874
+
+I am a Full Stack Web Developer. I discovered this field through friends and wanted to know how to learn and was recommended to look into coding boot camp. In 6 months of the course I've learned a wide range of knowledge in the field and am dedicated to learning even more.  Some of my biggest achievements have been refactoring, installation and testing. Best qualities are patience and communication.
+
+PERSONAL INFORMATION
+  Address: 22858 Lake George Blvd Nw 1, Bethel , 55005
+  Date of birth: June 19th 1994 Cambridge Minnesota
+  Nationality: 
+  Driving License: 
+  Hobbies: Music,Movies,Comics,Workouts,Walks, Video Games
+
+SKILLS
+  HTML5
+  jQuery
+  NodeJS
+  SQL
+  Bootstrap
+  HTML & CSS
+  CSS
+  React
+  Git
+  Node.js
+  MySQL
+  MongoDB
+  JavaScript
+  Heroku
+  Express
+  API
+  GitHub
+
+WORK EXPERIENCE
+  * January 2020
+    Dog Grooming at Deja's Doggie Camp, Oak Grove
+
+
+EDUCATION
+  * April 2022 – October 2022
+    University of Minnesota- Bootcamp,  
+

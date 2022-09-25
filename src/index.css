@@ -351,11 +351,10 @@ text-decoration: none;
   height: 150px;
 }
 .myimg {
-  border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  max-width: 150px;
 }
 .center {
   max-width: 100%;
