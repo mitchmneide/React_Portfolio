@@ -5,6 +5,7 @@ import blog from '../../assets/pictures/techblog.png'
 import weather from '../../assets/pictures/weather.png';
 import jate from '../../assets/pictures/jate.png';
 import runbuddy from '../../assets/pictures/Runbuddy.jpg'
+import uplaying from '../../assets/pictures/uplaying.png'
 function Project() {
 
     const projects = [
@@ -43,6 +44,12 @@ function Project() {
             image: runbuddy,
             repo: 'https://github.com/mitchmneide/run-buddy',
             url: 'https://mitchmneide.github.io/run-buddy/'
+        },
+        {
+            name: 'UPlaying!?',
+            image: uplaying,
+            repo: 'https://github.com/LoiT1020/U-Playing',
+            url: 'https://glacial-reaches-34108.herokuapp.com/'
         }
     ]
   
